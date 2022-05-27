@@ -3,8 +3,7 @@ To begin installation, you'll need a Kubernetes cluster  (with 2 nodes with 32GB
 
 Issue the following commands (copy paste in a terminal window)
 - kubectl create namespace opsmx-isd
-- kubectl -n opsmx-isd apply -f  \
-https://raw.githubusercontent.com/OpsMx/isd-quick-install/main/isd312/isd-gitea-quick.yaml
+- kubectl -n opsmx-isd apply -f https://raw.githubusercontent.com/OpsMx/isd-quick-install/main/isd312/isd-gitea-quick.yaml
 
 WAIT for about 20-30 min, depending your network speed.
 It is normal for some pods to go into error/crashloop before stabilising.
