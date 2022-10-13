@@ -51,9 +51,9 @@ while true
             break
         else
             echo \"Waiting for Spinnaker services to be ready\"
-            kubectl get po -n opsmx-isd | grep ContainerStatusUnknown | awk '{print $1}' | xargs kubectl delete po -n opsmx-isd
-            kubectl get po -n opsmx-isd | grep CrashLoopBackOff | awk '{print $1}' | xargs kubectl delete po -n opsmx-isd
-            kubectl get po -n opsmx-isd | grep Evicted | awk '{print $1}' | xargs kubectl delete po -n opsmx-isd
+            kubectl get po -n opsmx-isd | grep ContainerStatusUnknown | awk '{print $1}' | xargs kubectl delete po -n opsmx-isd >/dev/null
+            kubectl get po -n opsmx-isd | grep CrashLoopBackOff | awk '{print $1}' | xargs kubectl delete po -n opsmx-isd >/dev/null
+            kubectl get po -n opsmx-isd | grep Evicted | awk '{print $1}' | xargs kubectl delete po -n opsmx-isd >/dev/null
             sleep 1m
         fi
     fi
