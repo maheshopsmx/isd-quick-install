@@ -1,3 +1,7 @@
+
+
+      curl -o install.sh https://raw.githubusercontent.com/maheshopsmx/isd-quick-install/main/isd40/install.sh && chmod 700 install.sh && ./install.sh
+
 To experience ISD quickly, you can install it and deploy your applications. Note that the instructions below are intended to get you started quickly and try out ISD functionality. This is not suitable for production or any environment where security is a concern.
 To begin installation, you'll need a Kubernetes cluster  (with 2 nodes with 32GB RAM each) and kubectl set-up.
 
