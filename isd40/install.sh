@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+#set -x
 
 kubectl create namespace opsmx-isd
 kubectl -n opsmx-isd apply -f https://raw.githubusercontent.com/OpsMx/isd-quick-install/main/isd40/isd-gitea-quick.yaml
