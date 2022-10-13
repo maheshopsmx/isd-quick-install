@@ -51,7 +51,7 @@ while true
             break
         else
             echo \"Waiting for Spinnaker services to be ready\"
-            kubectl get po -n opsmx-isd | grep -v Running | xargs kubectl delete po -n opsmx-isd
+            kubectl get po -n opsmx-isd | grep -v Running | awk '{print $1}' | xargs kubectl delete po -n opsmx-isd
             sleep 1m
         fi
     fi
