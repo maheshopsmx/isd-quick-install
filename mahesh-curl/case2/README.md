@@ -1,6 +1,8 @@
 # How to install
 
-It uses the pre-templated manifest using helm, it is stored in git repo and raw data is used to install the package with shell script
+1. It uses the pre-templated manifest using helm, it is stored in git repo and raw data is used to install the package with shell script
+
+2. Install.sh is responsible for creating the namespace and downlaod the raw template file and install using kubectl command and port-foward the service
 
 ## Dependency
 
