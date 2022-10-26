@@ -14,7 +14,7 @@
 
 ## Drawbacks 
 
-  - no user inputs customised 
+  - no user inputs and customized values 
   - UI should be accessed only with port-forward
 
 
