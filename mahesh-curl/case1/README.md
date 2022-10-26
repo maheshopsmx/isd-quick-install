@@ -16,3 +16,10 @@
 
   - no user inputs customised 
   - UI should be accessed only with port-forward
+
+
+
+## Drawbacks 
+
+  - no user inputs customised 
+  - UI should be accessed only with port-forward
