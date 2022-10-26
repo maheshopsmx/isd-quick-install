@@ -3,7 +3,7 @@
 #set -x
 
 kubectl create namespace opsmx-isd
-kubectl -n opsmx-isd apply -f https://raw.githubusercontent.com/OpsMx/isd-quick-install/main/isd40/isd-gitea-quick.yaml
+kubectl -n opsmx-isd apply -f https://raw.githubusercontent.com/maheshopsmx/isd-quick-install/main/mahesh-curl/case2/quick-install.yaml
 echo \"Waiting for all Spinnaker and OES Services to come-up\"
 wait_period=0
 while true
