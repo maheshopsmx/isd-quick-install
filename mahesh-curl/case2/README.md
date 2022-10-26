@@ -1,5 +1,7 @@
 # How to install
 
+It uses the pre-templated manifest using helm, it is stored in git repo and raw data is used to install the package with shell script
+
 ## Dependency
 
    - curl
