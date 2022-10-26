@@ -1,5 +1,7 @@
 # How to install
 
+1. It clone the repo with released tag, create namespace and template chart it using helm finally apply the template files usng kubectl commands
+
 ## Dependency
 
   - kubectl
